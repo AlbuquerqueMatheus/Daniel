@@ -1,0 +1,26 @@
+body{
+    background-color: #000000;
+}
+
+h1{
+    color: #ec0000;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+button {
+    background-image: linear-gradient(to bottom, #743800, #630419);
+    color: #000000;
+    font-size: 50px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+  
+  button:hover {
+    background-image: linear-gradient(to bottom, #3399cc, #3366cc);
+    box-shadow: 0px 5px 10px rgba(51, 102, 204, 0.5);
+}
